@@ -31,9 +31,16 @@ body {
 }
 
 .left-header {
-  margin-top: 100px;
+  display: flex;
+  margin-top: 220px;
+  width: 400px;
+  align-self: center;
+  align-items: center;
+  text-align: left;
+}
 
-  background-color: rgba(12, 12, 12, .5);
+.name {
+  flex-wrap: wrap;
 }
 
 #logo {
