@@ -62,7 +62,8 @@ body {
   flex-direction: column;
   flex: 1;
 
-  background-color: #190c20;
+  /*background-color: #190c20;*/
+  background-color: #0c0c0c;
 }
 
 .right-header {
@@ -78,10 +79,10 @@ body {
 
 .form-container {
   flex: 1;
-  padding: 50px;
+  padding: 20px 50px;
 
-  background-color: #1e0e27;
-  box-shadow: 0px 0px 20px #3e1158;
+  background-color: #280f31;
+  box-shadow: 0px 0px 8px #280f31;
 }
 
 .right-footer {
@@ -98,9 +99,9 @@ body {
   padding: 15px 35px;
   margin-bottom: 15px;
 
-  color: cyan;
+  color: rgb(146, 54, 189);
   background-color: black;
   
-  border: 2px cyan solid;
+  border: 2px rgb(146, 54, 189) solid;
   border-radius: 4px;
 }
