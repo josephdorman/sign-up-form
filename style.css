@@ -78,11 +78,34 @@ body {
 }
 
 .form-container {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 20px 50px;
 
   background-color: #280f31;
   box-shadow: 0px 0px 8px #280f31;
+}
+
+form {
+  display: flex;
+  gap: 60px;
+}
+
+.form-container h3 {
+  margin-bottom: 20px;
+}
+
+.form-col {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 16px;
+}
+
+.form-col input {
+  margin-bottom: 24px;
+  padding: 4px;
 }
 
 .right-footer {
