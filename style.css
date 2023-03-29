@@ -3,6 +3,11 @@
   src: url(fonts/Aquire-BW0ox.otf);
 }
 
+@font-face {
+  font-family: Prompt;
+  src: url(fonts/Prompt-Regular.ttf);
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -37,6 +42,7 @@ body {
   align-self: center;
   align-items: center;
   text-align: left;
+
 }
 
 .name {
@@ -49,17 +55,52 @@ body {
 }
 
 .right-main {
+  font-family: Prompt, sans-serif;
+  font-size: 20px;
+
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex: 1;
 
   background-color: #190c20;
 }
 
+.right-header {
+  width: 650px;
+  height: 20%;
+  padding: 50px;
+  
+}
+
+.right-header p:last-child {
+  margin-top: 20px;
+}
+
 .form-container {
-  height: 400px;
+  flex: 1;
+  padding: 50px;
 
   background-color: #1e0e27;
   box-shadow: 0px 0px 20px #3e1158;
+}
+
+.right-footer {
+  height: 20%;
+  padding: 50px;
+
+  font-size: 12px;
+}
+
+#create-account {
+  font-weight: 700;
+  font-size: 24px;
+
+  padding: 15px 35px;
+  margin-bottom: 15px;
+
+  color: cyan;
+  background-color: black;
+  
+  border: 2px cyan solid;
+  border-radius: 4px;
 }
