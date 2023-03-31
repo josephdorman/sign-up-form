@@ -25,14 +25,14 @@
     </div>
     <div class="form-container">
       <h3>Let's do this!</h3>
-      <form>
+      <form action="" method="get" class="sign-up-form">
         <div class="form-col">
           <label for="first-name">First Name</label>
           <input id="first-name" name="first-name" type="text"/>
           <label for="email">Email</label>
-          <input id="email" name="email" type="text"/>
+          <input id="email" name="email" type="email"/>
           <label for="password">Password</label>
-          <input id="password" name="password" type="password"/>
+          <input class="error" id="password" name="password" type="password"/>
         </div>
         <div class="form-col">
           <label for="last-name">Last Name</label>
@@ -40,7 +40,7 @@
           <label for="phone-number">Phone Number</label>
           <input id="phone-number" name="phone-number" type="tel" />
           <label for="password-confirmation">Confirm Password</label>
-          <input id="password-confirmation" name="password-confirmation" type="password"/>
+          <input class="error" id="password-confirmation" name="password-confirmation" type="password"/>
         </div> 
       </form>
     </div>

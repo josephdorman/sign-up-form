@@ -70,7 +70,7 @@ body {
   width: 650px;
   height: 20%;
   padding: 50px;
-  
+
 }
 
 .right-header p:last-child {
@@ -86,7 +86,7 @@ body {
   box-shadow: 0px 0px 8px #280f31;
 }
 
-form {
+.sign-up-form {
   display: flex;
   gap: 60px;
 }
@@ -106,6 +106,22 @@ form {
 .form-col input {
   margin-bottom: 24px;
   padding: 4px;
+  width: 250px;
+
+  border-radius: 4px;
+  border: 2px solid #E5E7EB;
+
+  outline: none;
+}
+
+.form-col input[type="text"] {
+
+}
+
+.form-col input[type="text"]:focus {
+  border: 2px solid rgb(79, 199, 255);
+  box-shadow: 0px 0px 5px rgb(79, 199, 255);
+  outline: none;
 }
 
 .right-footer {
@@ -128,3 +144,9 @@ form {
   border: 2px rgb(146, 54, 189) solid;
   border-radius: 4px;
 }
+
+.error {
+  border: 2px solid rgb(255, 69, 69);
+}
+
+
