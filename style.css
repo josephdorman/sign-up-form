@@ -62,7 +62,6 @@ body {
   flex-direction: column;
   flex: 1;
 
-  /*background-color: #190c20;*/
   background-color: #0c0c0c;
 }
 
@@ -103,7 +102,9 @@ body {
   font-size: 16px;
 }
 
-.form-col input {
+.form-col input[type="text"],
+.form-col input[type="email"],
+.form-col input[type="tel"] {
   margin-bottom: 24px;
   padding: 4px;
   width: 250px;
@@ -112,10 +113,6 @@ body {
   border: 2px solid #E5E7EB;
 
   outline: none;
-}
-
-.form-col input[type="text"] {
-
 }
 
 .form-col input[type="text"]:focus {
@@ -139,14 +136,26 @@ body {
   margin-bottom: 15px;
 
   color: rgb(146, 54, 189);
-  background-color: black;
+  background-color: #0c0c0c;
   
   border: 2px rgb(146, 54, 189) solid;
   border-radius: 4px;
 }
 
 .error {
-  border: 2px solid rgb(255, 69, 69);
+  margin-bottom: 24px;
+  padding: 4px;
+  width: 250px;
+
+  border-radius: 4px;
+  border: 2px solid rgb(255, 31, 31);
+
+  outline: none;
+}
+
+#create-account:hover {
+  color: #0c0c0c;
+  background-color: rgb(146, 54, 189);
 }
 
 
